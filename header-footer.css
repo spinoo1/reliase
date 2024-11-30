@@ -1,0 +1,126 @@
+:root {
+  --main-background: #bb972b;
+  --main-hover: #e8d59d;
+  --dark-background: #462a10;
+  --card-background: #baab9d;
+  --active-background: #f5903e;
+  --active-color: #462a10;
+}
+
+.bg {
+  background-image: url(rainforest-4350845_1920.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+  z-index: -1;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+/* header */
+header {
+  background-color: var(--dark-background);
+  padding: 20px;
+  left: 0px;
+  top: 0px;
+  text-align: center;
+  position: relative;
+}
+
+header a {
+  color: black;
+  background-color: var(--main-background);
+  font-size: 20px;
+  text-decoration: none;
+  border: 1px solid var(--main-background);
+  border-radius: 10px;
+  padding: 5px;
+  margin: 30px;
+}
+
+header div {
+  background-color: var(--main-background);
+  width: 80px;
+  height: 80px;
+  border-radius: 15px;
+  top: 30px;
+  left: 30px;
+}
+header div img {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+}
+
+header .active {
+  background-color: var(--active-background);
+  color: var(--active-color);
+  border: 1px solid var(--active-background);
+  padding: 7px;
+}
+
+header .active:hover {
+  background-color: var(--active-background);
+}
+
+header a:hover {
+  background-color: var(--main-hover);
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+  font-weight: normal;
+  margin-bottom: -40px;
+  margin-top: 5px;
+  color: var(--main-background);
+  font-style: italic;
+}
+
+.search {
+  position: absolute;
+
+  top: 20px;
+  right: 20px;
+  width: 70px;
+  height: 70px;
+  background-color: var(--main-background);
+}
+
+.search img {
+  height: 60px;
+  width: 60px;
+}
+
+footer {
+  background-color: var(--dark-background);
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px;
+}
+
+footer a {
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  text-decoration: none;
+}
+
+footer a img {
+  width: 80px;
+}
+
+footer a h2 {
+  font-size: 20px;
+  margin-left: 15px;
+  display: inline-block;
+}

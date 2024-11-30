@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Карта</title>
+    <link rel="stylesheet" href="header-footer.css" />
+    <link rel="stylesheet" href="styles-news.css" />
+  </head>
+  <body>
+    <div class="bg"></div>
+    <header>
+      <h1>The isle fan wiki</h1>
+      <div><img src="dinosaur-7328213_640.png" alt="" /></div>
+      <nav>
+        <a href="/">Динозавры</a>
+        <a href="map.html">Карта</a>
+        <a href="mutations.html">Мутации</a>
+        <a class="active" href="news.html">Новости</a>
+      </nav>
+      <button class="search">
+        <img src="free-icon-search-15310366.png" alt="" />
+      </button>
+    </header>
+
+    <main>
+      <section>
+        <h2>Новости</h2>
+        <div class="articles">
+          <article>
+            <h2>DevBlog #53</h2>
+            <div class="stripe"></div>
+            <img src="news1.jpg" alt="" />
+            <div class="text">
+              <p>
+                Filipe - Lead Programmer
+                This month I worked mainly on finishing the diet system. The stomach grows with the dinosaur and food no longer scales with the stomach. This doesn’t have much impact on smaller animals, but large ones that have quick moments of growth are forced to eat far more often. The combinations for diets were simplified but now they are not dependent on having active slots. The value of a nutrient increases the bonuses proportionally with them to a cap. Salt licks were adjusted to better help with vomit sickness but they also drain a nutrient while using them. Don’t forget to set your active nutrient in the Dinosaur Profile if you want to control which one it is.
+                
+                The diet and nutrition changes also allowed us to include the eggs in the diet system. Now players can grab eggs from female corpses that had gestated them before dying or steal eggs from the nests. Changes will be made to this in the future to account to specific “Egg Thief” dinosaurs but for now every carnivore can benefit from stealing those nutrient rich eggs from nests
+                
+                To conclude, some fun things for server owners. A lot more server configs were added to help modify gameplay experiences and admin commands were updated to be faster and more responsive. Mass Migration was also added as a config and more is coming soon with the introduction of “Nesting Patrol Zones” but otherwise the system is done.
+                
+                See you next time.<a href="https://steamcommunity.com/app/376210/allnews/">Узнать больше</a>
+              </p>
+            </div>
+          </article>
+          <article>
+            <h2>DevBlog #52</h2>
+            <div class="stripe"></div>
+            <img src="news1.jpg" alt="" />
+            <div class="text">
+              <p>
+                Filipe - Lead Programmer
+                This month I was busy reworking the math behind food, which also changed all diet code including the combinations. Now slots no longer need to be activated anymore, the bonuses are scaled with the amount of nutrients until a defined maximum. No more getting full before you receive any benefits from eating what is on your diet! This change also made all balance changes easier for all animals, but also for calculating food in migration/patrol zones. This also allows us to give server owners some control over the food balance in game who may want a more customized experience.
+                
+                Besides that and the new slot combinations, new mechanics are coming soon such as Gastroliths. These are small rocks that will manually drain food contents from the stomach. This does not affect nutrients or anything other than the stomach value.
+                
+                Lastly, I also worked on balance changes for mutations, a few have been changed completely, others merely received buffs or debuffs and a lot of bug fixes and improvements.<a href="https://steamcommunity.com/app/376210/allnews/">Узнать больше</a>
+              </p>
+            </div>
+          </article>
+          <article>
+            <h2>DevBlog #51</h2>
+            <div class="stripe"></div>
+            <img src="news1.jpg" alt="" />
+            <div class="text">
+              <p>
+                Filipe - Lead Programmer
+This month I have been mostly focused on the new features for pounce and finishing up some systems before moving on to the new playables. As for pounce, the new slot swap system is finished which allows players to manually swap slots when latched to a target by spending some stamina. It can be used to better coordinate with other pouncers or simply be used to avoid being knocked down when the target uses nearby trees or objects.
+
+Along with that, pounce now has some incoming manual control to attack while latching. Latching on to players only causes a small amount of consistent damage, but allows players to tap/hold the primary attack button to do extra raw damage, or also tap/hold the secondary attack button to deal no raw damage, but high bleeding damage. Both actions spend stamina, but allows for more dynamic combat giving players more control over what type of damage they’re dealing to pounced victims. With this bucking has become significantly more important for the victim and it has received some major attention to prevent it being an unfun war of attrition.
+
+Lastly, some additional adjustments were made to the patrol zones that should help encourage players to explore the map and should be featured in the upcoming hordetest.<a href="https://steamcommunity.com/app/376210/allnews/">Узнать больше</a>
+              </p>
+            </div>
+          </article>
+
+          <article>
+            <h2>DevBlog #50</h2>
+            <div class="stripe"></div>
+            <img src="news1.jpg" alt="" />
+            <div class="text">
+              <p>
+                Filipe - Lead Programmer
+While hordetesting continues and some fixes are still being allocated, work continues as normal on the main branch of game development. This month I have been focused on finishing some work in progress mechanics and cleaning up the codebase, refactoring some code and data to be more organized and allow the creation of new dinosaurs or future abilities to be far easier.
+
+In that regard, Rex’s crush and throw abilities are pretty much done code wise and have been sent off to QA for the first round of bug finding. The same applies to Migration Patrols and Mass Migration before we move that to a future Hordetest.
+
+Lastly, several core mechanics are getting their final touches. Pounce is receiving additional function to make it more interactive when latched onto targets, including the capability to dismount in all directions (no more being forced to jump off a ledge to your death). Bucking will also no longer be a random war of stamina attrition, and some animals will have the capability to retaliate against whatever is latched on to them. Some of you may have seen the screenshots for night vision, but there is also a visual update we are trying for scent to make it less UI based.
+
+There is soon to be more, but that is all for now. See you!<a href="https://steamcommunity.com/app/376210/allnews/">Узнать больше</a>
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <a href="#">
+        <img src="discord.png" alt="" />
+        <h2>Приєднуйтесь в Дискорд</h2>
+      </a>
+      <a href="#">
+        <img src="discord.png" alt="" />
+        <h2>Приєднуйтесь в Дискорд</h2>
+      </a>
+    </footer>
+  </body>
+</html>

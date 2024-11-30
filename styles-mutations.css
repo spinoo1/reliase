@@ -1,0 +1,72 @@
+:root {
+    --main-background: #bb972b;
+    --main-hover: #e8d59d;
+    --dark-background: #462a10;
+    --card-background: #baab9d;
+    --active-background: #f5903e;
+    --active-color: #462a10;
+  }
+  
+  main {
+    background-color: #f5af38;
+    margin: 25px 20px;
+    padding: 20px 5px;
+    text-align: center;
+    opacity:0.8;
+  }
+  
+  main h2 {
+    margin: 10px;
+    font-size: 32px;
+  }
+  
+  .articles {
+    max-width: 1000px;
+    margin: 15px auto;
+  }
+  
+  .articles article {
+    background-color: var(--active-color);
+    color: white;
+    padding: 10px;
+    margin: 20px 5px;
+    position: relative;
+  }
+  
+  .articles article p {
+    text-align: left;
+    color: var(--main-hover);
+  }
+  
+  .stripe {
+    height: 3px;
+    margin: 0 auto;
+    min-width: 300px;
+    width: 600px;
+    margin-bottom: 20px;
+    background: linear-gradient(90deg, rgb(219, 114, 15), rgb(209, 166, 25));
+  }
+  
+  .articles .additional {
+    position: absolute;
+    right: 35px;
+    top: 110px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .articles .additional p {
+    color: var(--dark-background);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .articles .additional button {
+    background-color: lightgreen;
+    padding: 5px;
+    font-size: 24px;
+    border-radius: 10px;
+  }
